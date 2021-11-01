@@ -2,7 +2,7 @@ const Express = require("express");
 const router = require("./router");
 
 const app = Express();
-const port = process.env.port || 5000;
+const port = process.env.PORT || 5000;
 
 app.use(router);
 
@@ -11,5 +11,5 @@ app.use('/',(req,res)=> {
 })
 
 app.listen(port, () => {
-  console.log("Server is listening on localhost:5000");
+  console.log("Server is listening");
 });
