@@ -4,7 +4,7 @@
   <li>Open Project</li>
   <li>Open Terminal</li>
   <li>Write <code>npm install</code></li>
-  <li>Write "npm start"</li>
+  <li>Write <code>npm start</code></li>
  </ol>
 <h2>Thoughts about task solution</h2>
 <p>I decided to prioritise each country on the map. Countries which create the shortest path from North to South have priority - 1. Other countries has priority - 2.</p> 
